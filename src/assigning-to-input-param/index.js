@@ -1,6 +1,6 @@
 export function discount(originalInputValue, quantity) {
-  let inputValue = originalInputValue;
-  if (inputValue > 50) inputValue = inputValue - 2;
-  if (quantity > 100) inputValue = inputValue - 1;
-  return inputValue;
+  let result = originalInputValue;
+  if (result > 50) result = result - 2;
+  if (quantity > 100) result = result - 1;
+  return result;
 }
