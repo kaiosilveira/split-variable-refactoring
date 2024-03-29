@@ -1,9 +1,9 @@
 {
   "type": "module",
-  "name": "refactoring-catalog-template",
+  "name": "split-variable-refactoring",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/kaiosilveira/refactoring-catalog-template.git",
+  "repository": "https://github.com/kaiosilveira/split-variable-refactoring.git",
   "author": "Kaio Silveira <silveira.kaio@icloud.com>",
   "license": "MIT",
   "scripts": {
