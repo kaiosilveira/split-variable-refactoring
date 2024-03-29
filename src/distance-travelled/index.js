@@ -6,7 +6,7 @@ export function distanceTravelled(scenario, time) {
   let secondaryTime = time - scenario.delay;
   if (secondaryTime > 0) {
     let primaryVelocity = primaryAcceleration * scenario.delay;
-    let secondaryAcceleration = (scenario.primaryForce + scenario.secondaryForce) / scenario.mass;
+    const secondaryAcceleration = (scenario.primaryForce + scenario.secondaryForce) / scenario.mass;
     result +=
       primaryVelocity * secondaryTime + 0.5 * secondaryAcceleration * secondaryTime * secondaryTime;
   }
